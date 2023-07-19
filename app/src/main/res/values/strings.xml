@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">TravelLog</string>
+    <string name="where_ive_been">Where Ive been</string>
+    <string name="welcome_back_to_your_tavel_log">Welcome back to your tavel log!</string>
+    <string name="where_i_want_to_go">Where I want to go</string>
+    <string name="my_ratings">My ratings</string>
 </resources>
