@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_main">
+
+    <fragment
+        android:id="@+id/navigation_main"
+        android:name="com.zybooks.travellog.main_screen"
+        android:label="home"
+        tools:layout="@layout/main_screen" />
+
+    <fragment
+        android:id="@+id/navigation_been"
+        android:name="com.zybooks.travellog.already_been"
+        android:label="@string/where_ive_been"
+        tools:layout="@layout/already_been" />
+
+    <fragment
+        android:id="@+id/navigation_togo"
+        android:name="com.zybooks.travellog.want_togo"
+        android:label="@string/where_i_want_to_go"
+        tools:layout="@layout/want_togo" />
+
+    <fragment
+        android:id="@+id/navigation_ratings"
+        android:name="com.zybooks.travellog.my_ratings"
+        android:label="@string/my_ratings"
+        tools:layout="@layout/my_ratings" />
+</navigation>

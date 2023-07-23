@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_main"
+        android:icon="@drawable/baseline_home_24"
+        android:title="@string/home" />
+    <item
+        android:id="@+id/navigation_been"
+        android:icon="@drawable/circle_check"
+        android:title="@string/where_ive_been" />
+
+    <item
+        android:id="@+id/navigation_togo"
+        android:icon="@drawable/circle_empty"
+        android:title="@string/where_i_want_to_go" />
+
+    <item
+        android:id="@+id/navigation_ratings"
+        android:icon="@drawable/star_rate"
+        android:title="@string/my_ratings" />
+
+</menu>
